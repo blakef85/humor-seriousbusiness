@@ -1,0 +1,345 @@
+/* colors:
+
+highlight: #fe8351;
+
+*/
+
+#header,
+#main-menu {
+    display: none;
+}
+
+#footer {
+    background: none; 
+    border-top: 1px solid #dddddd;
+}
+
+.container, 
+.navbar-static-top .container, 
+.navbar-fixed-top .container, 
+.navbar-fixed-bottom .container {
+    width: 100%;
+}
+
+#main-upper { 
+    background: url('https://humor-seriousbusiness.stanford.edu/sites/default/files/istock-486115005_bw5.jpg') no-repeat left 45%;
+    background-size: cover !important;
+    -moz-background-size: cover !important; 
+    /*background-attachment: fixed !important;*/
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+/*
+.page-node-7 #main-upper { 
+    background: url('https://humor-seriousbusiness.stanford.edu/sites/default/files/kids-laughing_matt_batchelor.jpg') no-repeat left 68%;
+    background-size: cover !important;
+    -moz-background-size: cover !important; 
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+.page-node-9 #main-upper { 
+    background: url('https://humor-seriousbusiness.stanford.edu/sites/default/files/kids-laughing_matt_batchelor.jpg') no-repeat left 25%;
+    background-size: cover !important;
+    -moz-background-size: cover !important; 
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+.page-node-11 #main-upper { 
+    background: url('https://humor-seriousbusiness.stanford.edu/sites/default/files/kids-laughing_matt_batchelor.jpg') no-repeat left 69%;
+    background-size: cover !important;
+    -moz-background-size: cover !important; 
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
+}
+*/
+
+
+.span12 {
+    width: 90%;
+}
+
+#block-menu-block-1 h2, .menu-block-wrapper {
+    margin-left: 40px;
+}
+
+#block-bean-footer .content {
+    margin-left: 25px;
+}
+p {
+    line-height: 1.4em;
+    font-size: 12px;
+}
+
+img {
+    vertical-align: initial;
+}
+.footer-content #block-bean-footer.block {
+    width: auto;
+    position: relative;
+}
+
+ #main-content #content #content-wrapper {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+h1 { /* page title */
+    font-size: 3em;
+    font-weight: 300;
+}
+
+h2, h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #C1C7D2; /* silver grey */
+    color: #999999;
+}
+
+h6 {
+    color: rgba(248,148,6,0.8);
+}
+
+ul li.leaf {
+    list-style-type:none;
+    list-style-image: none;
+}
+
+ul {line-height: 1.4em;
+    font-size: 12px;
+}
+h2 a { /* Site name */
+    color: #fff;
+    font-weight: 300;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav > li > a {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.nav > li > a.active {
+    color: #fe8351;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus,
+h2 a:hover,
+h2 a:focus {
+    background: none;
+    color: #fe8351;
+}
+
+.credit {
+    display: none;
+}
+
+.video, .embed {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* begin: portrait images */
+
+.page-node-13 .content img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* end: portrait images */
+
+/* begin: pushing footer to bottom */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+
+/* end: pushing footer to bottom */
+
+
+/* begin: Class Home page override */
+
+/*.page-node-1 #header, .page-node-1 #main-menu  {
+    display: block;
+    visibility: hidden;
+}
+
+.page-node-1 #header {
+    margin: 0;
+}
+
+.page-node-1 .navbar {
+    margin-bottom: 0px;
+}*/
+
+#block-bean-story-coaches {
+    margin-left: 30px;
+    margin-right: -50px;
+}
+
+#block-bean-story-coaches .content {
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+#block-bean-story-coaches .entity {
+    background: rgba(255,255,255,.5);
+    padding-right: 10px;
+}    
+
+.page-node-1.html { /* Home background */
+    background: url('https://humor-seriousbusiness.stanford.edu/sites/default/files/istock-486115005_bw5.jpg') no-repeat 75% 10%;
+    background-size: cover !important;
+    -moz-background-size: cover !important; 
+    background-attachment: fixed !important;
+}
+
+.page-node-1 h1 {
+    display: none;
+}
+
+.page-node-1 #main-upper {
+    background: none;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0);
+}
+
+
+.page-node-1 h2 a {
+    color: #fe8351;
+}
+
+
+.page-node-1 #main {
+    min-height: 600px;
+}
+
+.page-node-1 a {
+    color: #ffffff;
+}
+
+.page-node-1 a:hover,
+.page-node-1 a:active,
+.page-node-1 a:focus {
+    color: #fe8351;
+}
+
+.page-node-1 #footer-content,
+.page-node-1 h5 {
+    color: rgba(255,255,255,0.85);
+    font-weight: 300;
+}
+
+.page-node-1 #footer,
+.page-node-3 #footer {
+    border-top: 0;
+}
+
+.page-node-1 .site-footer {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.page-node-1 .credit  {
+    display: inline-block;
+    margin-right: 4em;
+    text-align: right;
+    font-weight: 300;
+    font-size: .88em;
+    line-height: 1.0em;
+    color: rgba(255, 255, 255, .8);
+    position: absolute;
+    right: 0;
+    bottom: 41px;
+}
+.page-node-1 .credit-url {
+    letter-spacing: 1px;
+}
+
+.page-node-1 .credit-url a {
+    color: rgba(255, 255, 255, .8);
+    font-weight: 300;
+}
+
+/* end: Class Home page override */
+
+
+
+/* begin: admin view */
+
+.tabs {
+    background: #ccc;
+}
+
+/* end: admin view */
+
+
+/* media queries ********************* */
+/* ----- responsive ------------------ */
+
+
+/* smartphones to tablet */
+@media (max-width: 767px) {
+    body {
+        padding-right: 0px !important; 
+        padding-left: 0px !important; 
+    }
+    .page-node-1 .credit  {
+        display: block;
+        bottom: 0;
+        right: auto;
+        font-weight: 200;
+        letter-spacing: .2px;
+    }
+    
+    .main .block {
+        margin-bottom: 0px;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    h3, h4 {
+        margin: 0;
+    }
+ .page-node-1.html {
+    background: linear-gradient(rgba(119, 119, 119, 0.3), rgba(119, 119, 119, 0.5)), url('https://humor-seriousbusiness.stanford.edu/sites/default/files/istock-486115005_bw5.jpg') no-repeat 50% 32%;
+    background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-attachment: fixed !important;
+}         
+    
+}
+
+
+/* portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+   
+}
+
+/* Small desktop */
+@media (min-width: 980px) and (max-width: 1199px) {
+  
+}
